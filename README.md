@@ -39,6 +39,14 @@ with open('SpinToWinOutput.txt', 'r') as file2:
 file2.close()
 ```
 
+Note: The data sent from the microservice will be formatted as a tuple containing two strings. The first string will be either 'person', 'place' or 'thing' to denote the category of the second string. The second string will be something relating to the category of the first string. 
+
+```
+Ex:
+('person', 'Kate Winslet')
+('place', 'United Kingdom')
+('thing', 'pencil')
+```
 
 ### UML Sequence Diagram:
 
