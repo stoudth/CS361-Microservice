@@ -49,7 +49,14 @@ Ex:
 ```
 
 ### UML Sequence Diagram:
+Note: I have updated the UML because my partner requested adjustments to the microservice that meant it no longer utilized APIs. The new UML based on requested updates:
+
+[Updated Spin-To-Win Microservice UML.pdf](https://github.com/stoudth/CS361-Microservice/files/13445023/Updated.Spin-To-Win.Microservice.UML.pdf)
+
+------------------------------
+I have left the previous UML that was attached for now for reference for the grader below: 
 
 [Person-Place-Thing Microservice UML.pdf](https://github.com/stoudth/CS361-Microservice/files/13398584/Person-Place-Thing.Microservice.UML.pdf)
+
 
 
