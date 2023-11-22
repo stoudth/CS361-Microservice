@@ -2,7 +2,7 @@
 
 ### Function:
 
-This microservice generates a random person, place, or thing when a request is made to it. It does this by utilizing several APIs to get and validate data. 
+This microservice generates a random person, place, or thing when a request is made to it. It does this by using the random library in Python to select a value from built-in lists. 
 
 
 ### Communication Contract:
@@ -23,12 +23,12 @@ with open('SpinToWinInput.txt', 'w') as file1:
 file1.close()
 ```
 
-Note: When the microservice receives the request, it will erase the content in SpinToWinInput.txt in order to make the text file ready for another request. The          microservice will supply only one person, place, or thing for each get request made. If the requester needs mutltiple person, place, or things then multiple get         requests must be made.
+Note: When the microservice receives the request, it will erase the content in SpinToWinInput.txt in order to make the text file ready for another request. The microservice will supply only one person, place, or thing for each get request made. If the requester needs mutltiple person, place, or things then multiple get requests must be made.
 
 
 ### Receiving Data:
 
-In order to receive data from the microservice, the requester must check the SpinToWinOutput.txt file and retrieve the data that is written there. When a get            request is processed by the microservice, it will write the generated result in the SpinToWinOutput.txt file. 
+In order to receive data from the microservice, the requester must check the SpinToWinOutput.txt file and retrieve the data that is written there. When a get request is processed by the microservice, it will write the generated result in the SpinToWinOutput.txt file. 
 An example instruction toreceive the data sent form the microservice would be:
 
 ```
